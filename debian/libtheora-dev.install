@@ -1,0 +1,16 @@
+debian/tmp/usr/include/theora/theora.h
+debian/tmp/usr/include/theora/codec.h
+debian/tmp/usr/include/theora/theoradec.h
+debian/tmp/usr/include/theora/theoraenc.h
+debian/tmp/usr/lib/libtheora.a
+debian/tmp/usr/lib/libtheora.la
+debian/tmp/usr/lib/libtheora.so
+debian/tmp/usr/lib/libtheoradec.a
+debian/tmp/usr/lib/libtheoradec.la
+debian/tmp/usr/lib/libtheoradec.so
+debian/tmp/usr/lib/libtheoraenc.a
+debian/tmp/usr/lib/libtheoraenc.la
+debian/tmp/usr/lib/libtheoraenc.so
+debian/tmp/usr/lib/pkgconfig/theora.pc
+debian/tmp/usr/lib/pkgconfig/theoradec.pc
+debian/tmp/usr/lib/pkgconfig/theoraenc.pc

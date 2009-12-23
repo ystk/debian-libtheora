@@ -1,0 +1,6 @@
+debian/tmp/usr/lib/libtheora.so.0
+debian/tmp/usr/lib/libtheora.so.0.*
+debian/tmp/usr/lib/libtheoradec.so.1
+debian/tmp/usr/lib/libtheoradec.so.1.*
+debian/tmp/usr/lib/libtheoraenc.so.1
+debian/tmp/usr/lib/libtheoraenc.so.1.*

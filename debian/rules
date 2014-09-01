@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@ --with quilt
+	dh $@ --with quilt,autoreconf
 
 override_dh_strip:
 	dh_strip --dbg-package=libtheora-dbg
@@ -13,13 +13,5 @@ override_dh_install:
 override_dh_installdocs:
 	dh_installdocs README AUTHORS
 
-# Put config.sub rules in until http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=559098 is fixed
-override_dh_auto_configure:
-	ln -sf /usr/share/misc/config.sub .
-	ln -sf /usr/share/misc/config.guess .
-	dh_auto_configure
-
-override_dh_auto_clean:
-	dh_auto_clean
-	rm -f config.sub config.guess
-
+override_dh_autoreconf:
+	dh_autoreconf autoreconf -- -i -f -I m4

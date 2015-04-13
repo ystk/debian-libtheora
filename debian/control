@@ -2,14 +2,17 @@ Source: libtheora
 Section: libs
 Priority: optional
 Maintainer: Debian Xiph.org Maintainers <pkg-xiph-maint@lists.alioth.debian.org>
-Uploaders: John Francesco Ferlito <johnf@inodes.org>
+Uploaders:
+ Petter Reinholdtsen <pere@debian.org>
+ , Martin Steghöfer <martin@steghoefer.eu>
 Build-Depends: debhelper (>> 9), dh-autoreconf, devscripts,
- doxygen, graphviz, libogg-dev, libsdl1.2-dev, libvorbis-dev, python,
+ doxygen, libogg-dev, libsdl1.2-dev, libvorbis-dev, python,
  libtool, automake, quilt, dpkg (>= 1.14.8), libpng-dev, pkg-config
 Build-Depends-Indep: transfig, texlive-latex-base, texlive-latex-extra,
  texlive-latex-recommended, texlive-fonts-recommended, ghostscript
-Standards-Version: 3.9.5
-Vcs-Bzr: http://bzr.debian.org/bzr/pkg-xiph/libtheora
+Standards-Version: 3.9.6
+Vcs-Git: https://anonscm.debian.org/git/pkg-xiph/libtheora.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-xiph/libtheora.git
 Homepage: http://www.theora.org/
 
 Package: libtheora0

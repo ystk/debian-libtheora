@@ -1,3 +1,4 @@
 autotools
 dfsg
 build_on_gnu
+0004-player-example-needs-lm-for-rint.patch
